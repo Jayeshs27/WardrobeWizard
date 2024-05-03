@@ -1,0 +1,80 @@
+.profile-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: white;
+  padding: 20px;
+}
+
+.sidebar-links a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.right-content {
+  width: 75%;
+  overflow-y: auto; /* Enable scrolling */
+}
+
+.top-image {
+  position: relative;
+}
+
+.top-image img {
+  width: 100%;
+}
+
+.circular-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%; /* Adjust as needed */
+  height: 20%; /* Adjust as needed */
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.profile-info {
+  padding: 20px;
+}
+
+.profile-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.role {
+  font-size: 18px;
+  color: grey;
+}
+
+.gender {
+  font-size: 18px;
+  color: grey;
+}
+
+.edit-profile-button,
+.settings-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.edit-profile-button {
+  background-color: black;
+  color: white;
+}
+
+.settings-button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+

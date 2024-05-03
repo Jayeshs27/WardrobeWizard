@@ -1,0 +1,9 @@
+.likeButton {
+  color: grey; 
+
+}
+
+.likeButton.liked {
+  color: rgb(255, 95, 95); 
+
+}

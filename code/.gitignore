@@ -1,0 +1,11 @@
+models/venv
+models/my-env
+models/*.keras
+backend/venv
+backend/env
+backend/my-env
+backend/.vector_cache
+# Except this file
+!.gitignore
+
+

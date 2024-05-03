@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .center-image {
+    width: 20rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .login-text {
+    color: #5f5f5f; 
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .login-button {
+    background-color: #8b4513; /* Brown color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #654321; /* Darker brown color on hover */
+  }
+  

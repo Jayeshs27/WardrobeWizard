@@ -1,0 +1,181 @@
+/* styles.css for wardrobe pages.js*/
+.vertical-filters-filters.categories-container {
+  -webkit-text-size-adjust: 100%;
+  font-family: Assistant, -apple-system, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 60px;
+
+  height: 90vh;
+  width: 20vw;
+  /* border-bottom: 1px solid #e9e9ed; */
+  /* border-right: 1px solid #edebef;
+   */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: #ece2d979; */
+}
+
+.vertical-filters-header {
+  -webkit-text-size-adjust: 100%;
+  font-family: Assistant, -apple-system, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  font-size: 17px;
+  margin: 0 0 18px;
+  clear: both;
+  color: #282c3f;
+  display: block;
+}
+
+.categories-list {
+  -webkit-text-size-adjust: 100%;
+  font-family: Assistant, -apple-system, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.common-customCheckbox.vertical-filters-label {
+  -webkit-text-size-adjust: 100%;
+  font-family: Assistant, -apple-system, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  font-size: 18px;
+  box-sizing: inherit;
+  position: relative;
+  display: block;
+  width: 95%;
+  white-space: nowrap;
+  cursor: pointer;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  padding-top: 5px;
+  min-height: 17px;
+  color: #353c5c;
+}
+
+.categories-num {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  white-space: nowrap;
+  font: inherit;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 16px 0 0;
+  /* visibility: hidden; */
+}
+
+.common-checkboxIndicator {
+  -webkit-text-size-adjust: 100%;
+  font-family: Assistant, -apple-system, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  white-space: nowrap;
+  cursor: pointer;
+  box-sizing: inherit;
+  color: #94969f;
+  font-size: 11px;
+  margin-left: 4px;
+}
+
+.checkbox {
+  -webkit-text-size-adjust: 100%;
+  font-family: Assistant, -apple-system, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #353c5c;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c3c2c9;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.div-img-upload {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:20px;
+  padding:5px;
+  justify-content: center;
+  /* border:2px solid black;  */
+  height:15vh;
+  
+}
+.div-img-upload input{
+  /* background-color: red;  */
+  padding:0px;
+  width:180px;
+}
+.div-img-upload button{
+  width:100px;
+  /* border:none; */
+  /* padding:5px 2px; */
+  cursor:pointer;
+}
+.button-add-item {
+  height:30px;
+  width:120px;
+  margin:10px;
+  font-size:15px;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  background-color: #a38679;
+}
+.button-add-item:hover{
+  background-color: #7b655b;
+  cursor:pointer;
+}
+.img-loading-gif{
+  height:80vh;
+  width:80vh;
+}
+.loading-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.div-empty-wardrobe-container { 
+  /* background-color: red; */
+  display: flex;
+  flex-direction:column;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  width:70vw;
+  padding:0px 20vw;
+}
+.div-empty-wardrobe-text {
+  font-size: 30px;
+  color:grey;
+  text-align: center;
+}
+.img-empty-wardrobe {
+  height:50vh;
+  width:50vh;
+  opacity: 0.4;
+}
+
+

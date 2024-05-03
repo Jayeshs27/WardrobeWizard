@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.22.3",
+    "async-storage": "^0.1.0",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "child_process": "^1.0.2",
+    "express": "^4.18.3",
+    "isaac": "^0.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "moongoose": "^0.0.1",
+    "multer": "^1.4.5-lts.1",
+    "react-native-bcrypt": "^2.4.0",
+    "react-native-randombytes": "^3.6.1"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
